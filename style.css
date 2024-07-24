@@ -820,12 +820,10 @@ ul a {
 }
 
 
-nav .navbar .media-icons {
-    display: none;
-}
 
 @media (max-width: 750px) {
-   
+ 
+    
     nav .navbar .media-icons {
         display: block; /* Show icons on smaller screens */
     }
