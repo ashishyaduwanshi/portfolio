@@ -43,3 +43,7 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
+
+    document.getElementById('redirectBox').addEventListener('click', function() {
+        window.location.href = 'https://feellikeapnaghar.onrender.com/';
+    });

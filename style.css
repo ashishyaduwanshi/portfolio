@@ -369,7 +369,7 @@ section .button button:hover {
 .services .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .services .boxes .box {
