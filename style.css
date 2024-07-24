@@ -818,3 +818,22 @@ ul a {
         transition: all 0.5s ease-out;
     }
 }
+
+
+nav .navbar .media-icons {
+    display: none;
+}
+
+@media (max-width: 750px) {
+   
+    nav .navbar .media-icons {
+        display: block; /* Show icons on smaller screens */
+    }
+    .sticky .media-icons{
+        margin-right: 43px;
+        margin-top: 10px;
+}
+.logo{
+    display: none;
+}
+    }
